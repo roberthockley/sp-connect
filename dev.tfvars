@@ -1,0 +1,33 @@
+environment = {
+  name       = "dev"
+  region     = "ap-southeast-1"
+  account_id = "117134819170"
+}
+
+connect = {
+  instance_id                  = "9c785a7a-971e-45c2-818a-174ee307260c"
+  queue_1                      = "USaveQueue"
+  queue_2                      = "HighConsumptionQueue"
+  queue_3                      = "GiroQueue"
+  queue_4                      = "MAQueue"
+  queue_5                      = "RefundQueue"
+  queue_6                      = "OEMRelatedQueue"
+  queue_7                      = "GeneralQueryQueue"
+  queue_8                      = "ChineseQueue"
+  queue_9                      = "OtherInquiries"
+  queue_10                     = "DCCBillingQueue"
+  queue_11                     = "HardshipQueue"
+  queue_12                     = "MIMOQueue"
+  queue_13                     = "WaterConcessionQueue"
+  queue_14                     = "BillingQueue"
+  queue_15                     = "AccountQueue"
+  queue_16                     = "SubmitMeterReadingQueue"
+  queue_18                     = "CallbackQueue"
+  queue_19                     = "SDO_Service_Voice_Call"
+  queue_20                     = "DCCDebtManagementQueue"
+  queue_21                     = "PaymentQueue"
+  queue_22                     = "SCC-BasicQueue"
+  hours_of_operation_id        = "1f3c1781-e1fe-4f18-8d8d-eb00f723bc2e"
+  outbound_flow_id             = "d6731ac5-0d88-4305-bf59-ae9bf739e323"
+  outbound_caller_id_number_id = "c3035368-b915-4a0a-8294-5b1d8e443cb5"
+}
