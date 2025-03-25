@@ -27,11 +27,11 @@ variable "connect" {
     queue_14                     = string
     queue_15                     = string
     queue_16                     = string
+    queue_17                     = string
     queue_18                     = string
     queue_19                     = string
     queue_20                     = string
     queue_21                     = string
-    queue_22                     = string
     hours_of_operation_id        = string
     outbound_flow_id             = string
     outbound_caller_id_number_id = string

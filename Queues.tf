@@ -237,15 +237,3 @@ resource "aws_connect_queue" "queue20" {
     outbound_flow_id             = var.connect.outbound_flow_id
   }
 }
-
-resource "aws_connect_queue" "queue21" {
-  instance_id           = var.connect.instance_id
-  name                  = var.connect.queue_21
-  description           = "Standard Queue"
-  hours_of_operation_id = var.connect.hours_of_operation_id
-
-  outbound_caller_config {
-    outbound_caller_id_number_id =var.connect.outbound_caller_id_number_id
-    outbound_flow_id             = var.connect.outbound_flow_id
-  }
-}
